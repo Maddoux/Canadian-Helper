@@ -24,7 +24,10 @@ A Discord moderation bot with advanced warning and punishment systems.
    ```
 4. Update the `.env` file with:
    - Your Discord bot token
-   - Database credentials (host, name, user, password)
+   ```bash
+   # Discord Bot Configuration
+   DISCORD_BOT_TOKEN=your_discord_bot_token_here
+   ```
 
 5. Run the bot:
    ```bash
